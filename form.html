@@ -1,0 +1,178 @@
+﻿<html>
+  <head>
+    <style>
+      body {
+        background-color: lightblue;
+      }
+      #title {
+        text-align: center;
+        color: red;
+        font-size: 50px;
+        background-color: yellowgreen;
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+      }
+      #para1 {
+        font-family: serif;
+        font-style: italic;
+      }
+
+      a:link {
+        color: brown;
+      }
+
+      a:visited {
+        color: pink;
+      }
+
+      a:hover {
+        color: yellow;
+      }
+
+      a:active {
+        color: blue;
+      }
+      ul.a {
+        list-style-type: circle;
+      }
+
+      ul.b {
+        list-style-type: square;
+      }
+      ol.c {
+        list-style-type: upper-roman;
+      }
+
+      ol.d {
+        list-style-type: lower-alpha;
+      }
+      #profile {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-right: 25px;
+        float: left;
+      }
+      table {
+        float: right;
+      }
+      td {
+        outline-style: dashed;
+        width: 20%;
+      }
+      th {
+        outline-style: double;
+      }
+      [class|="table"] {
+        background: yellow;
+      }
+      #hided {
+        display: none;
+      }
+      .static {
+        position: absolute;
+        border: 2px solid red;
+      }
+      div#navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #463f3e;
+      }
+
+      div#navbar li {
+        float: left;
+      }
+
+      div#navbar li a {
+        display: block;
+        padding: 10px;
+        background: #463f3e;
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="registration.html">Register</a></li>
+        <li><a href="personal.html">Personal details</a></li>
+      </ul>
+    </div>
+    <div id="title">TITLE OF THE PAGE</div>
+    <p id="para1">
+      HTML (HyperText Markup Language) is the most basic building block of the
+      Web. It defines the meaning and structure of web content. Other
+      technologies besides HTML are generally used to describe a web page's
+      appearance/presentation (CSS) or functionality/behavior (JavaScript).
+      "Hypertext" refers to links that connect web pages to one another, either
+      within a single website or between websites. Links are a fundamental
+      aspect of the Web. By uploading content to the Internet and linking it to
+      pages created by other people, you become an active participant in the
+      World Wide Web.
+    </p>
+
+    <center><a href="sa.com">LINK</a></center>
+
+    <ul class="a">
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ul>
+
+    <ul class="b">
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ul>
+
+    <ol class="c">
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ol>
+
+    <ol class="d">
+      <li>one</li>
+      <li>two</li>
+      <li>three</li>
+    </ol>
+    <img id="profile" src="download.png" />
+
+    <table class="table">
+      <tr>
+        <th>subjects</th>
+        <th>marks</th>
+      </tr>
+      <tr>
+        <td>
+          <center>data structures</center>
+        </td>
+        <td><center>88</center></td>
+      </tr>
+
+      <tr>
+        <td>
+          <center>python</center>
+        </td>
+        <td><center>80</center></td>
+      </tr>
+
+      <tr>
+        <td>
+          <center>java</center>
+        </td>
+        <td><center>95</center></td>
+      </tr>
+    </table>
+    <p id="hided">THIS IS HIDED</p>
+
+    <div class="static">
+      This div element has position: static;
+    </div>
+  </body>
+</html>
